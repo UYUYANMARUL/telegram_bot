@@ -48,7 +48,7 @@ async fn callback_handler(bot: Bot, q: CallbackQuery) -> Result<(), Box<dyn Erro
 
     let mut data = payloads::AnswerCallbackQuery::new(q.id);
 
-    let url = Url::parse("https://telegram-bot-taupe.vercel.app").unwrap();
+    let url = Url::parse("https://gercel.itch.io/deneme").unwrap();
 
     data.url = Some(url);
     println!("as");
